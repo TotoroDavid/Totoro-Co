@@ -2,8 +2,14 @@
 import { PricesPage } from '../components/PricesPage/PricesPage';
 import { TestimonialsPage } from '../components/TestimonialsPage/TestimonialsPage';
 import { ContactPage } from '../components/ContactPage/ContactPage';
+import { useEffect } from 'react';
 
 export const PreciosLandingPage = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
+
     return (
         <>
             <header class="text-center my-5">

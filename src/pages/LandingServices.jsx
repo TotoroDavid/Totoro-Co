@@ -4,6 +4,11 @@ import { TestimonialsPage } from '../components/TestimonialsPage/TestimonialsPag
 import { ContactPage } from '../components/ContactPage/ContactPage';
 
 export const LandingServices = () => {
+
+    React.useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
+
     return (
         <>
             <header class="bg-dark py-5">

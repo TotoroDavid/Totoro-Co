@@ -11,7 +11,11 @@ export const OurProcess = () => {
                         <div key={index} className="col-lg-3 my-3 ">
                             <div className="card bg-dark text-white h-100">
                                 <div className="card-body">
-                                    <img src={stage.img} alt="Icono de proceso" />
+                                    <img
+                                        style={{
+                                            width: '150px'
+                                        }}
+                                        src={stage.img} alt="Icono de proceso" />
                                     <h4 className="card-title">{stage.title}</h4>
                                     <p className="card-text">{stage.description}</p>
                                 </div>

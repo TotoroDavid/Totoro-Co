@@ -8,12 +8,16 @@ import { PortFolioLandingPage } from './pages/PortFolioLandingPage';
 import { PreciosLandingPage } from './pages/PreciosLandingPage';
 import { BlogLandingPage } from './pages/BlogLandingPage';
 import { ContactLandingPage } from './pages/ContactLandingPage';
+import { FloatingButton } from './components/FloatingButton';
+import { HeaderBar } from './components/HeaderBar';
+import { HeaderBarPage } from './pages/HeaderBarPage';
 
 export const App = () => {
 
   return (
 
     <BrowserRouter>
+      <HeaderBar />
       <NavBar />
       <Routes>
         <Route path="/" element={<LandingPage />} />
@@ -22,11 +26,13 @@ export const App = () => {
         <Route path="/pricing" element={<PreciosLandingPage />} />
         <Route path="/blog" element={<BlogLandingPage />} />
         <Route path="/contact" element={<ContactLandingPage />} />
+        <Route path="/formulario" element={<HeaderBarPage />} />
 
 
         <Route path="/services/:id" element={<ServicesById />} />
       </Routes>
       <Footer />
+      <FloatingButton />
     </BrowserRouter>
   )
 }

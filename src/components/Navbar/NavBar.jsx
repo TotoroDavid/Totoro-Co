@@ -2,6 +2,25 @@ import React, { useState } from 'react';
 import { navigationItems } from '../../data/navigationItems';
 import { Link } from 'react-router-dom';
 
+export const redesSociales = [
+    {
+        nombre: "FaceBook",
+        link: "https://www.facebook.com/profile.php?id=100090901749139",
+        url: "https://cdn-icons-png.flaticon.com/512/145/145802.png"
+    },
+    {
+        nombre: "Instagram",
+        link: "https://www.instagram.com/totorocoagency/",
+        url: "https://cdn-icons-png.flaticon.com/512/3955/3955024.png"
+    },
+    {
+        nombre: "LinkedIn",
+        link: "https://www.linkedin.com/in/davidtoro90/",
+        url: "https://cdn-icons-png.flaticon.com/512/145/145807.png"
+    },
+]
+
+
 export const NavBar = () => {
     const [isOpen, setIsOpen] = useState(false);
 
@@ -26,13 +45,27 @@ export const NavBar = () => {
                 <button className="navbar-toggler" type="button" onClick={toggle}>
                     <span className="navbar-toggler-icon"></span>
                 </button>
-                <div className={`collapse navbar-collapse ${isOpen ? 'show' : ''}`} id="navbarNav">
-                    <ul className="navbar-nav d-flex justify-content-center">
+                <div className={`justify-content-center align-items-center collapse navbar-collapse ${isOpen ? 'show' : ''}`} id="navbarNav">
+                    <ul className="navbar-nav justify-content-center align-items-center">
                         {navigationItems.map((item) => (
                             <li className="nav-item text-decoration-none" key={item.name}>
                                 <Link onClick={handleClick} className='nav-link text-decoration-none text-black px-3' to={`/${item.href}`}>
                                     {item.name}
                                 </Link>
+                            </li>
+                        ))}
+                    </ul>
+                    <ul className="navbar-nav justify-content-center align-items-center">
+                        {redesSociales.map((red) => (
+                            <li className="nav-item text-decoration-none" key={red.nombre}>
+                                <a href={red.link} target="_blank" rel="noopener noreferrer">
+                                    <img
+                                        className="p-1"
+                                        style={{
+                                            width: '40px'
+                                        }}
+                                        src={red.url} alt={red.nombre} />
+                                </a>
                             </li>
                         ))}
                     </ul>

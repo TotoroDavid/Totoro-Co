@@ -34,7 +34,7 @@ export const PricesPage = () => {
     return (
         <section id="pricing">
             <div className="container py-5">
-                <h2 className="text-center mb-5">Nuestros Precios</h2>
+                <h2 className="text-center mb-5">Nuestros Paquetes</h2>
                 <div className="row">
                     {pricingPackages.map((package_, index) => (
                         <div className="col-md-4 mb-5" key={index}>

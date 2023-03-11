@@ -1,9 +1,9 @@
 export const team = [
     {
-        name: 'Jane Doe',
+        name: 'Juli',
         position: 'Gerente de marketing',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.',
-        image: 'https://raw.githubusercontent.com/TotoroDavid/You-dont-know-JS/master/My-project-_1_.webp',
+        description: 'planifica y ejecuta estrategias para impulsar el crecimiento y la visibilidad de la empresa. Utiliza investigación de mercado, segmentación de audiencias y campañas publicitarias efectivas para garantizar el éxito a largo plazo.',
+        image: 'https://raw.githubusercontent.com/TotoroDavid/You-dont-know-JS/master/juli.webp',
         social: [{
             icon: 'fab fa-twitter',
             link: '#'
@@ -14,10 +14,10 @@ export const team = [
         { icon: 'fab fa-linkedin-in', link: '#' }]
     },
     {
-        name: 'John Doe',
+        name: 'Douglas',
         position: 'Diseñador gráfico',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.',
-        image: 'https://raw.githubusercontent.com/TotoroDavid/You-dont-know-JS/master/My-project-_2_.webp',
+        description: 'responsable de crear imágenes y materiales visuales para promocionar la marca y productos de la empresa. Con su creatividad y habilidades técnicas, el diseñador gráfico contribuye a la imagen y presencia de la empresa en el mercado.',
+        image: 'https://raw.githubusercontent.com/TotoroDavid/You-dont-know-JS/master/Douglas.webp',
         social: [
             {
                 icon: 'fab fa-twitter',
@@ -34,10 +34,10 @@ export const team = [
         ]
     },
     {
-        name: 'Jane Doe',
+        name: 'David',
         position: 'Desarrollador web',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.',
-        image: 'https://raw.githubusercontent.com/TotoroDavid/You-dont-know-JS/master/My-project-_3_.webp',
+        description: 'crear y mantener sitios web, asegurándose de que sean atractivos, intuitivos y funcionales para los usuarios. Utilizan lenguajes de programación como HTML, CSS y JavaScript para construir y mejorar páginas web.',
+        image: 'https://raw.githubusercontent.com/TotoroDavid/You-dont-know-JS/master/fotor_2023-2-6_15_11_3.webp',
         social: [
             {
                 icon: 'fab fa-twitter',

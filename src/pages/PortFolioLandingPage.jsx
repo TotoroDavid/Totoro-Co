@@ -3,6 +3,11 @@ import { PortfolioPage } from '../components/PortfolioPage/PortfolioPage';
 import { ContactPage } from '../components/ContactPage/ContactPage';
 
 export const PortFolioLandingPage = () => {
+
+    React.useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
+
     return (
         <div>
 

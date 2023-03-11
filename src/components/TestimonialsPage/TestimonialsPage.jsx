@@ -10,7 +10,7 @@ export const TestimonialsPage = () => {
                     {testimonials.map((testimonial, index) => (
                         <div key={index} className="col-lg-4 my-3">
                             <div className="card h-100">
-                                <div className="card-body bg-dark text-white rounded border border-dark">
+                                <div className="card-body bg-secondary text-white rounded border border-dark">
                                     <div className="testimonial-img">
                                         <img src={testimonial.image} className="img-fluid rounded-circle" />
                                     </div>

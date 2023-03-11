@@ -1,14 +1,14 @@
-const enlaces = [
+export const enlaces = [
     { nombre: "Página de Inicio", url: "#" },
     { nombre: "Servicios", url: "#" },
     { nombre: "Portafolio", url: "#" },
     { nombre: "Precios", url: "#" },
     { nombre: "Blog", url: "#" },];
 
-const redesSociales = [
+export const redesSociales = [
     {
         nombre: "WhatsApp",
-        link: "https://api.whatsapp.com/send/?phone=573243006432&text&type=phone_number&app_absent=0",
+        link: "https://wa.me/message/DV7VFDYSRPTPE1",
         url: "https://cdn-icons-png.flaticon.com/512/4494/4494495.png"
     },
     {

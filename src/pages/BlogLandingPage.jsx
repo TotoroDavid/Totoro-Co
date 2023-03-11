@@ -1,6 +1,11 @@
 import React from 'react'
 
 export const BlogLandingPage = () => {
+
+    React.useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
+
     return (
         <>
             <div class="container mt-5">

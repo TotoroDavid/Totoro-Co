@@ -1,20 +1,20 @@
 export const testimonials = [
     {
-        image: "https://raw.githubusercontent.com/TotoroDavid/You-dont-know-JS/master/photo-1522075469751-3a6694fb2f61.webp",
-        text: "Trabajar con la agencia ha sido una experiencia increíble. Desde el primer momento, sentimos que nuestra marca estaba en buenas manos y los resultados han sido espectaculares.",
-        name: "John Doe",
-        company: "Empresa XYZ"
+        image: "https://raw.githubusercontent.com/TotoroDavid/You-dont-know-JS/master/maria.webp",
+        text: "Colaborar con la agencia ha sido un gran impulso para mi carrera como profesional independiente. Gracias a su asesoramiento, he mejorado mi portafolio y he atraído más oportunidades de trabajo.",
+        name: "Mafe",
+        company: "WebDeveloper"
     },
     {
-        image: "https://raw.githubusercontent.com/TotoroDavid/You-dont-know-JS/master/My-project-_1_.webp",
-        text: "Estamos muy contentos con el trabajo que han realizado. Nuestra página web ahora se ve moderna y profesional, y estamos recibiendo más visitas y clientes potenciales.",
-        name: "Jane Doe",
-        company: "Empresa ABC"
+        image: "https://raw.githubusercontent.com/TotoroDavid/You-dont-know-JS/master/camila.webp",
+        text: "Estamos muy satisfechos con el trabajo realizado. Nuestro sitio web de educación se ve ahora más moderno y profesional, y estamos recibiendo más visitas y estudiantes potenciales.",
+        name: "Camila",
+        company: "Escula-Educacion"
     },
     {
-        image: "https://raw.githubusercontent.com/TotoroDavid/You-dont-know-JS/master/My-project.webp",
-        text: "La agencia ha sido un gran aliado en nuestro camino hacia el éxito en línea. Gracias a su experiencia y conocimiento, hemos logrado mejorar nuestra presencia en línea y aumentar nuestras ventas.",
-        name: "Bob Smith",
-        company: "Empresa LMN"
+        image: "https://raw.githubusercontent.com/TotoroDavid/You-dont-know-JS/master/dianis.webp",
+        text: "La agencia ha sido fundamental en el éxito de nuestra clínica de fonoaudiología. Su experiencia en el campo de la salud ha permitido mejorar nuestra presencia en línea y atraer más pacientes.",
+        name: "Diana",
+        company: "Salud"
     }
 ];
